@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.square_boxes {
+  margin: 30px;
+  height: 310px;
+  width: 310px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border: 1px solid black;
+}
