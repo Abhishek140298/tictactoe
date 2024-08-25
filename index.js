@@ -24,10 +24,8 @@
     clickedCell.textContent = currentPlayer;
     boxesComplete.push(currentPlayer);
     if (checkWinner()) {
-      console.log("Ye jeeta", currentPlayer);
       let messageElement = document.createElement("h1");
       messageElement.textContent = `${currentPlayer} is the winner`;
-      console.log("Main Ele", mainElemnet);
       mainElemnet[0].appendChild(messageElement);
     } else if (boxesComplete.length == 9) {
       let messageElement = document.createElement("h1");
